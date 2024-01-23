@@ -21,10 +21,10 @@ def get_args():
     # args
     # ------------
     parser = ArgumentParser()
-    parser.add_argument('--project_name', default='BIT_LEVIR', type=str)
+    parser.add_argument('--project_name', default='SSCD_LEVIR', type=str)
     parser.add_argument('--gpu_ids', type=str, default='1', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
     parser.add_argument('--checkpoint_root', default='checkpoints', type=str)
-    parser.add_argument('--output_folder', default='/workspace/test/predict/10.28D/', type=str)
+    parser.add_argument('--output_folder', default='/workspace/test/predict/', type=str)
 
     # data
     parser.add_argument('--num_workers', default=0, type=int)

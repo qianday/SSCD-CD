@@ -52,7 +52,7 @@ gpus=0
 data_name=LEVIR # dataset name
 net_G=base_transformer_pos_s4_dd8_dedim8 # model name 
 split=test # test.txt
-project_name=BIT_LEVIR # the name of the subfolder in the checkpoints folder 
+project_name=SSCD_LEVIR # the name of the subfolder in the checkpoints folder 
 checkpoint_name=best_ckpt.pt # the name of evaluated model file 
 
 python eval_cd.py --split ${split} --net_G ${net_G} --checkpoint_name ${checkpoint_name} --gpu_ids ${gpus} --project_name ${project_name} --data_name ${data_name}
@@ -87,6 +87,8 @@ LEVIR-CD: https://justchenhao.github.io/LEVIR/
 WHU-CD: https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html
 
 DSIFN-CD: https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset
+
+GOOGLE-CD: https://drive.usercontent.google.com/download?id=1DAlxuqalNIPopt-WgtDmCYO98_jWM3ER&export=download&authuser=0
 
 ## Citation
 
